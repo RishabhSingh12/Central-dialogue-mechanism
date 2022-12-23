@@ -1,0 +1,36 @@
+.btn-container{
+  /* height: 100vh; */
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.btn{
+  /* border: none; */
+  margin: 20rem 0 ;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  margin-right: 10px;
+  padding: 10px 15px;
+  color: white;
+}
+
+.btn:hover{
+  opacity: 0.9;
+}
+
+.success{
+  background-color: green;
+}
+.error{
+  background-color: rgb(199, 10, 10);
+}
+.wait{
+  background-color: rgb(233, 134, 4);
+}
+
+.message{
+  
+}

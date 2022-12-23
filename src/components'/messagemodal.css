@@ -1,0 +1,32 @@
+.dialogue-container{
+    padding: 5px; 
+    color: white;
+}
+
+.fetch-success{
+    border-radius: 5px;
+    padding: 5px 8px;
+    background-color: green;
+    position: absolute;
+    top: 1rem;
+    /* transform: translateX(-14rem); */
+    transition:all ease 300ms;
+}
+.fetch-error{
+    border-radius: 5px;
+    padding: 5px 8px;
+    background-color: red;
+    position: absolute;
+    top: 1rem;
+    /* transform: translateX(-14rem); */
+    transition:all ease 300ms;
+}
+.fetch-wait{
+    border-radius: 5px;
+    padding: 5px 8px;
+    background-color: rgb(255, 166, 0);
+    position: absolute;
+    top: 1rem;
+    /* transform: translateX(-14rem); */
+    transition:all ease 300ms;
+}
